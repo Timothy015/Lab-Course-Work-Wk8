@@ -85,3 +85,30 @@ Vanuatu
 Venezuela
 Vietnam
 Zambia
+Minsk
+Thimphu
+Kinshasa
+Accra
+Conakry
+Reykjavik
+Baghdad
+Kingston
+Bishkek
+Lilongwe
+Nouakchott
+Windhoek
+Kathmandu
+Amsterdam
+Wellington
+Pyongyang
+Port Moresby
+Castries
+Kingstown
+Edinburgh
+Belgrade
+Ljubljana
+Stockholm
+Bangkok
+Ashgabat
+Washington D.C.
+Tashkent

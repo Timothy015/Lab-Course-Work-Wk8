@@ -18,8 +18,26 @@ def get_countries(regex):
     fh.close()
 
 
+def get_capitals(regex):
+    """
+    Writes the capitals to lab-week-8.txt if the match our pattern
+    """
+
+    fh = open("lab-week-8.txt", "a")
+
+    for capital in capitals:
+        if re.search(regex, capital):
+            fh.write(capital + "\n")
+
+    fh.close()
+
+
+
+
+
 def main():
     get_countries("[aeiou]{2}")
+    get_capitals("[bbcdfghhjklmnpqrstvwxyz]{3}")
 
 
 if __name__ == "__main__":
