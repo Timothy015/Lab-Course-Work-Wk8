@@ -32,12 +32,21 @@ def get_capitals(regex):
     fh.close()
 
 
+def print_file_data():
+    """
+    Open and reads file data of lab-week-8.txt and prints to console
+    """
+    fh = open("lab-week-8.txt", "r")
+    read_file = fh.read()
+    fh.close()
 
+    print(read_file)
 
 
 def main():
     get_countries("[aeiou]{2}")
     get_capitals("[bbcdfghhjklmnpqrstvwxyz]{3}")
+    print_file_data()
 
 
 if __name__ == "__main__":
